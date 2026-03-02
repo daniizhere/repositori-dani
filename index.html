@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech4 Solutions</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Header - AutoDrive</title>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="grid grid-rows-[auto_1fr_auto] min-h-screen m-0 p-0 font-sans">
+<body class="grid grid-rows-[auto_1fr_auto] min-h-screen bg-gray-950 text-white">
 
-    <header id="main-header" class="grid grid-cols-1 items-center bg-slate-800 text-white p-4 h-20">
-        </header>
+<header class="bg-gradient-to-r from-black via-gray-900 to-black border-b border-red-600 shadow-xl">
+    <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-extrabold text-red-600 tracking-wider">
+                AutoDrive Performance
+            </h1>
+            <p class="text-gray-400 text-sm">
+                Ultimate Automotive Experience
+            </p>
+        </div>
 
-    <div id="main-wrapper" class="grid grid-cols-5">
-
-        <nav id="main-navigation" class="col-span-1 grid grid-cols-1 content-start bg-slate-100 p-4 border-r border-slate-300">
-            </nav>
-
-        <main id="main-content" class="col-span-3 grid grid-cols-1 content-start bg-white p-6">
-            <article class="grid grid-cols-1 gap-4">
-                </article>
-        </main>
-
-        <aside id="right-sidebar" class="col-span-1 grid grid-cols-1 content-start bg-slate-50 p-4 border-l border-slate-300">
-            </aside>
-
+        <div class="hidden md:flex gap-6 text-sm text-gray-300">
+            <span class="hover:text-red-500 transition">Since 2020</span>
+            <span class="hover:text-red-500 transition">Racing Community</span>
+        </div>
     </div>
+</header>
 
-    <footer id="main-footer" class="grid grid-cols-1 items-center bg-slate-900 text-white p-4 text-center h-16">
-        </footer>
+<div class="grid grid-cols-5 flex-grow">
+    <nav class="col-span-1"></nav>
+    <main class="col-span-3"></main>
+    <aside class="col-span-1"></aside>
+</div>
+
+<footer></footer>
 
 </body>
 </html>
