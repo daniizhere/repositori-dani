@@ -1,32 +1,101 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoDrive Performance</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoDrive Performance</title>
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="grid grid-rows-[auto_1fr_auto] min-h-screen bg-gray-950 text-white">
 
-    <!-- HEADER -->
-    <header id="main-header"></header>
-
-    <!-- WRAPPER -->
-    <div id="main-wrapper" class="grid grid-cols-5 flex-grow max-w-7xl mx-auto w-full">
-
-        <!-- NAVIGATION -->
-        <nav id="main-navigation" class="col-span-1"></nav>
-
-        <!-- CONTENT -->
-        <main id="main-content" class="col-span-3"></main>
-
-        <!-- SIDEBAR -->
-        <aside id="right-sidebar" class="col-span-1"></aside>
-
+<!-- HEADER -->
+<header class="bg-black border-b border-red-600 p-6 shadow-lg">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <div>
+            <h1 class="text-3xl font-bold text-red-600 tracking-wider">
+                AutoDrive Performance
+            </h1>
+            <p class="text-gray-400 text-sm">
+                Ultimate Automotive Experience
+            </p>
+        </div>
     </div>
+</header>
 
-    <!-- FOOTER -->
-    <footer id="main-footer"></footer>
+<!-- WRAPPER -->
+<div class="grid grid-cols-5 flex-grow max-w-7xl mx-auto w-full">
+
+    <!-- NAVIGATION -->
+    <nav class="col-span-1 bg-gray-900 border-r border-gray-800 p-6">
+        <h2 class="text-lg font-bold text-red-500 mb-6">Menu</h2>
+        <ul class="space-y-4 text-gray-300">
+            <li><a href="#" class="block hover:text-red-500 transition">Home</a></li>
+            <li><a href="#" class="block hover:text-red-500 transition">Mobil Sport</a></li>
+            <li><a href="#" class="block hover:text-red-500 transition">Motor Racing</a></li>
+            <li><a href="#" class="block hover:text-red-500 transition">Modifikasi</a></li>
+            <li><a href="#" class="block hover:text-red-500 transition">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENT -->
+    <main class="col-span-3 p-10">
+        <h2 class="text-3xl font-bold text-red-500 mb-6">
+            Explore The Speed
+        </h2>
+
+        <p class="text-gray-400 mb-10">
+            Dunia otomotif penuh inovasi — dari mesin turbocharged
+            hingga kendaraan listrik performa tinggi.
+        </p>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition duration-300 border border-gray-800">
+                <h3 class="text-xl font-semibold mb-2">Supercar Performance</h3>
+                <p class="text-gray-400 text-sm">
+                    Akselerasi 0-100 km/jam dalam hitungan detik.
+                </p>
+            </div>
+
+            <div class="bg-gray-900 p-6 rounded-xl shadow-lg hover:scale-105 transition duration-300 border border-gray-800">
+                <h3 class="text-xl font-semibold mb-2">Electric Revolution</h3>
+                <p class="text-gray-400 text-sm">
+                    Mobil listrik dengan torsi instan dan desain futuristik.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="col-span-1 bg-gray-900 border-l border-gray-800 p-6">
+        <h2 class="text-lg font-bold text-red-500 mb-6">Trending</h2>
+
+        <div class="space-y-6 text-sm">
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition">
+                🔥 Car Meet 2026
+            </div>
+
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition">
+                ⚡ Review EV Terbaru
+            </div>
+
+            <div class="bg-gray-800 p-4 rounded-lg hover:bg-gray-700 transition">
+                🛠 Tips Modifikasi Aman
+            </div>
+        </div>
+    </aside>
+
+</div> <!-- TUTUP WRAPPER -->
+
+<!-- FOOTER -->
+<footer class="bg-black border-t border-red-600 text-center p-6">
+    <p class="text-red-500 font-semibold">
+        AutoDrive Performance © 2026
+    </p>
+    <p class="text-gray-500 text-sm mt-2">
+        Built by RPL Automotive Team
+    </p>
+</footer>
 
 </body>
-</html>
+    </html>
